@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.rambler.libs.swipe_layout.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/view_margin_xxxlarge"
+    app:left_swipe_enabled="false"
+    app:right_swipe_enabled="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/task_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_margin_medium"
+            android:src="@drawable/ic_marked"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/task_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_margin_medium"
+            android:fontFamily="@font/sfprodisplay_medium"
+            android:textSize="@dimen/task_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/task_checkbox"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Start making a presentation" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/black_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/task_text" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--RIGHT-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:bring_to_clamp="280dp"
+        app:clamp="self"
+        app:gravity="right"
+        app:sticky="180dp">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/completeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="270dp"
+            android:src="@drawable/ic_task"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="120dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_trash"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!--LEFT-->
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        app:gravity="left"
+        app:bring_to_clamp="100dp"
+        app:clamp="self"
+        app:sticky="none">
+    </FrameLayout>
+
+
+
+
+</ru.rambler.libs.swipe_layout.SwipeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_margin_small">10dp</dimen>
+    <dimen name="view_margin_medium">20dp</dimen>
+    <dimen name="view_margin_large">30dp</dimen>
+    <dimen name="view_margin_xlarge">40dp</dimen>
+    <dimen name="view_margin_xxlarge">50dp</dimen>
+    <dimen name="view_margin_xxxlarge">60dp</dimen>
+    <dimen name="recyclerview_margin_top">80dp</dimen>
+    <dimen name="guideline_margin">35dp</dimen>
+    <dimen name="login_logo_margin_top">100dp</dimen>
+    <dimen name="not_a_member_margin_bottom">5dp</dimen>
+
+    <!--text size -->
+    <dimen name="today_text_size">32sp</dimen>
+    <dimen name="free_registiration_text_size">24sp</dimen>
+    <dimen name="not_a_member_text_size">16sp</dimen>
+    <dimen name="login_btn_text_size">18sp</dimen>
+    <dimen name="rememberme_text_size">18sp</dimen>
+    <dimen name="forgot_password_text_size">18sp</dimen>
+    <dimen name="login_text_size">28sp</dimen>
+    <dimen name="task_text_size">18sp</dimen>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apply_btn">Apply</string>
+    <string name="dismiss_btn">Dismiss</string>
+    <string name="app_name">Tasker</string>
+    <string name="today_text">Today</string>
+    <string name="free_registiration_text">Free Registiration</string>
+    <string name="not_a_member">Not a member?</string>
+    <string name="login_btn">Login</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="password">Password</string>
+    <string name="email">E-mail Address</string>
+    <string name="login">Login</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tasker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="apply_btn">Tamam</string>
+    <string name="dismiss_btn">Vazgeç</string>
+    <string name="today_text">Today</string>
+    <string name="free_registiration_text">Ücrestsiz Üye Ol</string>
+    <string name="not_a_member">Üye değil misin?</string>
+    <string name="login_btn">Giriş Yapın</string>
+    <string name="remember_me">Beni Hatırla</string>
+    <string name="forgot_password">Şifremi Unuttum</string>
+    <string name="password">Şifreniz</string>
+    <string name="email">E-Posta Adresiniz</string>
+    <string name="login">Giriş Yapın</string>
+
+</resources>

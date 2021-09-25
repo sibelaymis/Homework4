@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="@dimen/view_margin_medium"
+        android:layout_marginStart="@dimen/view_margin_medium"
+        android:hint="Task description"
+        android:id="@+id/new_task_text"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/new_task_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="@dimen/view_margin_large"
+        android:text="@string/apply_btn"
+        android:textColor="@color/default_text_color"
+        android:textAllCaps="false"
+        android:background="@color/light_blue"
+        android:id="@+id/add_task"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/new_task_text"
+        app:layout_constraintEnd_toStartOf="@id/add_task"
+        android:layout_marginEnd="@dimen/view_margin_large"
+        android:text="@string/dismiss_btn"
+        android:textColor="@color/default_text_color"
+        android:textAllCaps="false"
+        android:background="@color/light_blue"
+        android:id="@+id/dismiss"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
