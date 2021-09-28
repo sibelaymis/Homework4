@@ -141,7 +141,9 @@
         app:layout_constraintBottom_toTopOf="@id/remember_me_checkbox"
         android:layout_marginBottom="@dimen/view_margin_large"
         android:hint="@string/password"
-        android:paddingLeft="@dimen/view_margin_medium"
+        android:paddingStart="@dimen/view_margin_medium"
+        android:paddingEnd="@dimen/view_margin_medium"
+        android:inputType="textPassword"
         android:id="@+id/password_etv"/>
 
     <androidx.appcompat.widget.AppCompatEditText
@@ -153,7 +155,9 @@
         app:layout_constraintBottom_toTopOf="@id/password_etv"
         android:layout_marginBottom="@dimen/view_margin_small"
         android:hint="@string/email"
-        android:paddingLeft="@dimen/view_margin_medium"
+        android:paddingStart="@dimen/view_margin_medium"
+        android:paddingEnd="@dimen/view_margin_medium"
+        android:inputType="textEmailAddress"
         android:id="@+id/email_etv"/>
 
     <androidx.appcompat.widget.AppCompatTextView
